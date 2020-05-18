@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style_index.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Covid-19 Dashboard</title>
+</head>
+
+<body>
+    <nav class="total-navbar navbar navbar-expand-md navbar-dark" style="background-color: #003D7A;">
+        <a class="navabar-title navbar-brand" href="#">Covid-19</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Acerca de</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="curved">
+        <section class="hero">
+            <h1>Información sobre covid-19</h1>
+            <p>*Actualizaciones diarias</p>
+
+        </section>
+    </section>
+    <div class="container">
+        <section class="data-global">
+            <h2>Datos globales</h2>
+            <div class="data">
+                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Primary card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="data-mexico">
+            <h2>Datos de México</h2>
+            <div class="date">Ultima Actualizacion
+                <div id="Day"></div>
+            </div>
+
+            <div class="data-today">
+
+                <p class="title-data">Datos nuevos (solo datos de hoy)</p>
+                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(255, 64, 64);">
+                    <div class="card-header">Personas nuevas confirmadas </div>
+                    <div class="card-body">
+                        <h5 id="NewConfirmed" class="count"></h5>
+                        <p class="card-text">Personas confirmadas como nuevas portadoras hoy</p>
+                    </div>
+                </div>
+                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: #000;">
+                    <div class="card-header">Nuevas defunciones </div>
+                    <div class="card-body">
+                        <h5 id="NewDeaths" class="count"></h5>
+                        <p class="card-text">Solo defunciones de hoy</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="data-total">
+                <p class="title-data">Datos totales (Datos acomulados)</p>
+
+                <!-- datos acomulados (totales)- -->
+                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(252, 0, 0);">
+                    <div class="card-header">Personas totales contagiadas</div>
+                    <div class="card-body">
+                        <h5 id="TotalConfirmed" class="count"></h5>
+                        <p class="card-text">Todas las personas acomuladas confirmadas, portadoras de Covid-19.</p>
+                    </div>
+                </div>
+                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: #000;">
+                    <div class="card-header">Defunciones Totales</div>
+                    <div class="card-body">
+                        <h5 id="TotalDeaths" class="count"></h5>
+                        <p class="card-text">Defunciones totales</p>
+                    </div>
+                </div>
+                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(0, 216, 36);">
+                    <div class="card-header">Personas totales recuperadas </div>
+                    <div class="card-body">
+                        <h5 id="TotalRecovered" class="count"></h5>
+                        <p class="card-text">*(Datos estimados) Personas recuperadas</p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </section>
+
+
+
+    <script async src="/js/app.js"></script>
+    </div>
+    <section class="footer">
+
+        <h5>Creado por
+            <a href="https://erickrv19.github.io/">Erick R</h5></a>
+
+
+    </section>
+</body>
+
+</html>
