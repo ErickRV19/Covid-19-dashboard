@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #007DFA;
+    --accent-color: #005DBA;
+    --secondary-color: #FF9B30;
+    --color-font-primary: slategray;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    font-size: 1.3em;
+}
+
+.navbar-brand {
+    font-size: 1em;
+}
+
+.curved {
+    position: relative;
+    background: #003D7A;
+    height: 40vh;
+    border-bottom-left-radius: 50% 18%;
+    border-bottom-right-radius: 50% 18%;
+}
+
+.hero {
+    text-transform: uppercase;
+    display: block;
+    padding: 2em;
+    color: white;
+}
+
+.date {
+    text-align: right;
+    align-content: inherit;
+    font-size: .8em;
+    margin: 1em;
+}
+
+.container {
+    color: var(--color-font-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.data {
+    margin: 2em 0em;
+}
+
+.data-today {
+    margin-bottom: 3em;
+}
+
+.count {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.card-data {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.data-global {
+    margin: 4em 0em;
+}
+
+.data-mexico {}
+
+.footer {
+    border-top-left-radius: 50% 18%;
+    border-top-right-radius: 50% 18%;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    background-color: #000;
+}
