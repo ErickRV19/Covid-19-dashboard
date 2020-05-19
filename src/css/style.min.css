@@ -1,4 +1,4 @@
-:root {
+root {
     --primary-color: #007dfa;
 }
 
@@ -18,55 +18,55 @@
     font-size: 1.3em;
 }
 
-[class~=navbar-brand] {
+.navbar-brand {
     font-size: 1em;
 }
 
-[class~=curved] {
+.curved {
     position: relative;
 }
 
-[class~=curved] {
+.curved {
     background: #003d7a;
 }
 
-[class~=curved] {
+.curved {
     height: 40vh;
 }
 
-[class~=curved] {
+.curved {
     border-bottom-left-radius: 50% 18%;
 }
 
-[class~=curved] {
+.curved {
     border-bottom-right-radius: 50% 18%;
 }
 
-.hero {
+[class~=hero] {
     text-transform: initial;
 }
 
-.hero {
+[class~=hero] {
     display: block;
 }
 
-.hero {
+[class~=hero] {
     padding-left: 2em;
 }
 
-.hero {
+[class~=hero] {
     padding-bottom: 2em;
 }
 
-.hero {
+[class~=hero] {
     padding-right: 2em;
 }
 
-.hero {
+[class~=hero] {
     padding-top: 2em;
 }
 
-.hero {
+[class~=hero] {
     color: white;
 }
 
@@ -98,38 +98,29 @@
     margin-top: 1em;
 }
 
-[class~=container],
-.separator {
+[class~=container] {
     color: var(--color-font-primary);
 }
 
-[class~=container],
-[class~=ir-recomendaciones],
-[class~=footer],
-.separator {
+[class~=container] {
     display: flex;
 }
 
-[class~=container],
-.separator {
+[class~=container] {
     flex-direction: column;
 }
 
-[class~=container],
-.separator,
-[class~=footer] {
+[class~=container] {
     align-items: center;
 }
 
-.separator,
 [class~=container] {
     text-align: center;
 }
 
-[class~=data-total],
 [class~=data],
-.data-global,
-[class~=data-today] {
+[class~=data-today],
+[class~=data-total] {
     margin-left: 0em;
 }
 
@@ -137,10 +128,9 @@
     margin-bottom: 2em;
 }
 
-.data-global,
 [class~=data-total],
-[class~=data],
-[class~=data-today] {
+[class~=data-today],
+[class~=data] {
     margin-right: 0em;
 }
 
@@ -172,6 +162,133 @@
     font-size: 2em;
 }
 
+[class~=card2],
+[class~=card3],
+[class~=card1] {
+    border-left-width: medium;
+}
+
+[class~=card2],
+[class~=card1],
+[class~=card3] {
+    border-bottom-width: medium;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+[class~=card1],
+[class~=card3],
+[class~=card2] {
+    border-right-width: medium;
+}
+
+[class~=card1],
+[class~=card3],
+[class~=card2] {
+    border-top-width: medium;
+}
+
+[class~=card1],
+[class~=card2],
+[class~=card3] {
+    border-left-style: solid;
+}
+
+[class~=card1],
+[class~=card3],
+[class~=card2] {
+    border-bottom-style: solid;
+}
+
+[class~=card1],
+[class~=card3],
+[class~=card2] {
+    border-right-style: solid;
+}
+
+[class~=card2],
+[class~=card1],
+[class~=card3] {
+    border-top-style: solid;
+}
+
+[class~=card1] {
+    border-left-color: #ff4040;
+}
+
+[class~=card1] {
+    border-bottom-color: #ff4040;
+}
+
+[class~=card1] {
+    border-right-color: #ff4040;
+}
+
+[class~=card1] {
+    border-top-color: #ff4040;
+}
+
+[class~=card2],
+[class~=card1],
+[class~=card3] {
+    background: white;
+}
+
+[class~=card3],
+[class~=card1],
+[class~=card2] {
+    color: black;
+}
+
+[class~=card3],
+[class~=tarjeta],
+[class~=card1],
+[class~=card2] {
+    border-radius: 1em;
+}
+
+[class~=card2] {
+    border-left-color: #000;
+}
+
+[class~=card2] {
+    border-bottom-color: #000;
+}
+
+[class~=card2] {
+    border-right-color: #000;
+}
+
+[class~=card2] {
+    border-top-color: #000;
+}
+
+[class~=card3] {
+    border-left-color: #3add55;
+}
+
+[class~=card3] {
+    border-bottom-color: #3add55;
+}
+
+[class~=card3] {
+    border-right-color: #3add55;
+}
+
+[class~=card3] {
+    border-top-color: #3add55;
+}
+
+[class~=card-title1] {
+    color: #ff4040;
+}
+
+[class~=card-title3] {
+    color: #3add55;
+}
+
 [class~=card-data] {
     margin-top: 2em;
 }
@@ -181,7 +298,15 @@
 }
 
 .data-global {
+    margin-left: 0em;
+}
+
+.data-global {
     margin-bottom: 4em;
+}
+
+.data-global {
+    margin-right: 0em;
 }
 
 .data-global {
@@ -190,16 +315,39 @@
 
 [class~=data-mexico] {}
 
-.separator {
+[class~=separator] {
     margin-bottom: 6.25pc;
 }
 
-.separator {
+[class~=footer],
+[class~=separator],
+[class~=ir-recomendaciones] {
+    display: flex;
+}
+
+[class~=separator] {
     flex-wrap: wrap;
 }
 
+[class~=separator] {
+    flex-direction: column;
+}
+
+[class~=footer],
+[class~=separator] {
+    align-items: center;
+}
+
+[class~=separator] {
+    text-align: center;
+}
+
+[class~=separator] {
+    color: var(--color-font-primary);
+}
+
 [class~=ir-recomendaciones] {
-    margin-top: 22.5pt;
+    margin-top: 1.875pc;
 }
 
 [class~=ir-recomendaciones] {
@@ -248,10 +396,6 @@
 
 [class~=social] {
     display: inline;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
 }
 
 [class~=ir-recomendaciones] img {

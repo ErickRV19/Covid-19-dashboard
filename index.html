@@ -7,7 +7,9 @@
     <link rel="shortcut icon" href="/src/img/iconpage.png" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 
+
     <link rel="stylesheet" href="/src/css/style.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -24,6 +26,12 @@
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/pages/capaHospitalaria.html">Capacidad hospitalaria</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Estadísticas</a>
                 </li>
@@ -50,22 +58,22 @@
             <img src="/src/img/world.png" height="150px" width="150px" class="icon-data" alt="">
             <p class="title-data">Datos acomulados</p>
             <div class="data">
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(252, 0, 0);">
-                    <div class="card-header">Personas totales contagiadas</div>
+                <div class="card-data card1 mb-3" style="max-width: 18rem; ">
+                    <div class="card-header card-title1">Personas totales contagiadas</div>
                     <div class="card-body">
                         <h5 id="TotalConfirmedWorld" class="count"></h5>
                         <p class="card-text">Todas las personas acomuladas confirmadas, portadoras de Covid-19.</p>
                     </div>
                 </div>
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: #000;">
+                <div class="card-data card2  mb-3" style="max-width: 18rem;">
                     <div class="card-header">Defunciones Totales</div>
                     <div class="card-body">
                         <h5 id="TotalDeathsWorld" class="count"></h5>
                         <p class="card-text">Defunciones totales</p>
                     </div>
                 </div>
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(58, 221, 85);">
-                    <div class="card-header">Personas totales recuperadas </div>
+                <div class="card-data card3  mb-3" style="max-width: 18rem; ">
+                    <div class="card-header card-title3">Personas totales recuperadas </div>
                     <div class="card-body">
                         <h5 id="TotalRecoveredWorld" class="count"></h5>
                         <p class="card-text">*(Datos estimados) Personas recuperadas</p>
@@ -98,14 +106,14 @@
             <div class="data-today">
 
                 <p class="title-data" style="color: rgb(0, 0, 0);">Datos nuevos (solo datos de hoy)</p>
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(255, 64, 64);">
-                    <div class="card-header">Personas nuevas confirmadas </div>
+                <div class="card-data tarjeta text-white mb-3" style="max-width: 18rem; background-color: rgb(255, 64, 64);">
+                    <div class="card-header ">Personas nuevas confirmadas </div>
                     <div class="card-body">
                         <h5 id="NewConfirmed" class="count"></h5>
                         <p class="card-text">Personas confirmadas como nuevas portadoras hoy</p>
                     </div>
                 </div>
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: #000;">
+                <div class="card-data tarjeta text-white mb-3" style="max-width: 18rem; background-color: #000;">
                     <div class="card-header">Nuevas defunciones </div>
                     <div class="card-body">
                         <h5 id="NewDeaths" class="count"></h5>
@@ -119,22 +127,22 @@
                 <p class="title-data" style="color: rgb(0, 0, 0);">Datos totales (Datos acomulados)</p>
 
                 <!-- datos acomulados (totales)- -->
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(252, 0, 0);">
-                    <div class="card-header">Personas totales contagiadas</div>
+                <div class="card-data card1   mb-3" style="max-width: 18rem; ">
+                    <div class="card-header card-title1">Personas totales contagiadas</div>
                     <div class="card-body">
                         <h5 id="TotalConfirmed" class="count"></h5>
                         <p class="card-text">Todas las personas acomuladas confirmadas, portadoras de Covid-19.</p>
                     </div>
                 </div>
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: #000;">
+                <div class="card-data card2  mb-3" style="max-width: 18rem;">
                     <div class="card-header">Defunciones Totales</div>
                     <div class="card-body">
                         <h5 id="TotalDeaths" class="count"></h5>
                         <p class="card-text">Defunciones totales</p>
                     </div>
                 </div>
-                <div class="card-data card text-white mb-3" style="max-width: 18rem; background-color: rgb(58, 221, 85);">
-                    <div class="card-header">Personas totales recuperadas </div>
+                <div class="card-data card3  mb-3" style="max-width: 18rem">
+                    <div class="card-header card-title3">Personas totales recuperadas </div>
                     <div class="card-body">
                         <h5 id="TotalRecovered" class="count"></h5>
                         <p class="card-text">*(Datos estimados) Personas recuperadas</p>
