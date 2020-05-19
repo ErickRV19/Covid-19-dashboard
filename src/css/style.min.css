@@ -14,7 +14,7 @@
     --color-font-primary: slategray;
 }
 
-.navbar {
+[class~=navbar] {
     font-size: 1.3em;
 }
 
@@ -103,21 +103,21 @@
     color: var(--color-font-primary);
 }
 
-.footer,
+[class~=container],
 [class~=ir-recomendaciones],
-.separator,
-[class~=container] {
+[class~=footer],
+.separator {
     display: flex;
 }
 
-.separator,
-[class~=container] {
+[class~=container],
+.separator {
     flex-direction: column;
 }
 
+[class~=container],
 .separator,
-.footer,
-[class~=container] {
+[class~=footer] {
     align-items: center;
 }
 
@@ -126,25 +126,25 @@
     text-align: center;
 }
 
-[class~=data-today],
-.data,
 [class~=data-total],
-[class~=data-global] {
+[class~=data],
+.data-global,
+[class~=data-today] {
     margin-left: 0em;
 }
 
-.data {
+[class~=data] {
     margin-bottom: 2em;
 }
 
-[class~=data-today],
-.data,
-[class~=data-global],
-[class~=data-total] {
+.data-global,
+[class~=data-total],
+[class~=data],
+[class~=data-today] {
     margin-right: 0em;
 }
 
-.data {
+[class~=data] {
     margin-top: 2em;
 }
 
@@ -180,22 +180,18 @@
     margin-bottom: 1em;
 }
 
-[class~=data-global] {
+.data-global {
     margin-bottom: 4em;
 }
 
-[class~=data-global] {
+.data-global {
     margin-top: 4em;
 }
 
 [class~=data-mexico] {}
 
-[class~=ir-recomendaciones] img {
-    padding-left: 15px;
-}
-
 .separator {
-    margin-bottom: 1.041666667in;
+    margin-bottom: 6.25pc;
 }
 
 .separator {
@@ -203,7 +199,7 @@
 }
 
 [class~=ir-recomendaciones] {
-    margin-top: 1.875pc;
+    margin-top: 22.5pt;
 }
 
 [class~=ir-recomendaciones] {
@@ -214,40 +210,40 @@
     justify-content: space-between;
 }
 
-.footer {
+[class~=footer] {
     border-top-left-radius: 50% 18%;
 }
 
-.footer {
+[class~=footer] {
     border-top-right-radius: 50% 18%;
 }
 
-.footer {
+[class~=footer] {
     color: white;
 }
 
-.footer {
+[class~=footer] {
     flex-direction: column;
 }
 
-.footer {
+[class~=footer] {
     padding-left: 3em;
 }
 
-.footer {
+[class~=footer] {
     padding-bottom: 3em;
 }
 
-.footer {
+[class~=footer] {
     padding-right: 3em;
 }
 
-.footer {
+[class~=footer] {
     padding-top: 3em;
 }
 
-.footer {
-    background-color: black;
+[class~=footer] {
+    background-color: #003d7a;
 }
 
 [class~=social] {
@@ -256,4 +252,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+[class~=ir-recomendaciones] img {
+    padding-left: .15625in;
 }
