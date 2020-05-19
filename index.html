@@ -20,7 +20,7 @@
 
 <body>
     <nav class="total-navbar navbar navbar-expand-md navbar-dark" style="background-color: #003D7A;">
-        <a class="navabar-title navbar-brand" href="#">Covid-19</a>
+        <a class="navabar-title navbar-brand" href="/index.html">Covid-19</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,6 +49,7 @@
         <section class="hero">
             <h1>Información sobre covid-19</h1>
             <p>*Actualizaciones diarias</p>
+            <p id="advertencia">*la pagina esta en fase de desarrollo si no aparecen los datos vuelve a recargar</p>
 
         </section>
     </section>
@@ -56,24 +57,25 @@
         <section class="data-global">
             <h1>Datos globales</h1>
             <img src="/src/img/world.png" height="150px" width="150px" class="icon-data" alt="">
-            <p class="title-data">Datos acomulados</p>
+            <p class="title-data">Datos acumulados</p>
             <div class="data">
+
                 <div class="card-data card1 mb-3" style="max-width: 18rem; ">
-                    <div class="card-header card-title1">Personas totales contagiadas</div>
+                    <div id="danger" class="card-header card-title1">Personas totales contagiadas</div>
                     <div class="card-body">
                         <h5 id="TotalConfirmedWorld" class="count"></h5>
-                        <p class="card-text">Todas las personas acomuladas confirmadas, portadoras de Covid-19.</p>
+                        <p class="card-text">Todas las personas acumuladas confirmadas, portadoras de Covid-19.</p>
                     </div>
                 </div>
                 <div class="card-data card2  mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Defunciones Totales</div>
+                    <div id="dark" class="card-header">Defunciones Totales</div>
                     <div class="card-body">
                         <h5 id="TotalDeathsWorld" class="count"></h5>
                         <p class="card-text">Defunciones totales</p>
                     </div>
                 </div>
                 <div class="card-data card3  mb-3" style="max-width: 18rem; ">
-                    <div class="card-header card-title3">Personas totales recuperadas </div>
+                    <div id="sucess" class="card-header card-title3">Personas totales recuperadas </div>
                     <div class="card-body">
                         <h5 id="TotalRecoveredWorld" class="count"></h5>
                         <p class="card-text">*(Datos estimados) Personas recuperadas</p>
@@ -87,9 +89,9 @@
         <img src="/src/img/warning.png" width="200px" alt="">
         <h1>Evita contagiarte</h1>
         <h3>Recuerda seguir
-            <p> recomendaciones</h3>
+            <p> las recomendaciones</h3>
         <div class="ir-recomendaciones">
-            <h4>Ver recomendaciones</h4>
+            <h4>Ver</h4>
             <a href="http://"><img src="/src/img/irderecha.png" alt="" width="50px"> </a>
         </div>
 
@@ -98,7 +100,7 @@
     <div class="container">
         <section class="data-mexico">
             <h2>Datos de México</h2>
-            <div class="date">Ultima Actualizacion
+            <div class="date">Ultima Actualización
                 <div id="Day"></div>
             </div>
             <img src="/src/img/mexico.png" height="150px" width="150px" class="icon-data" alt="">
@@ -124,25 +126,25 @@
 
             <div class="data-total">
                 <img src="/src/img/covid.png" width="100px" alt="">
-                <p class="title-data" style="color: rgb(0, 0, 0);">Datos totales (Datos acomulados)</p>
+                <p class="title-data" style="color: rgb(0, 0, 0);">Datos totales (Datos acumulados)</p>
 
                 <!-- datos acomulados (totales)- -->
                 <div class="card-data card1   mb-3" style="max-width: 18rem; ">
-                    <div class="card-header card-title1">Personas totales contagiadas</div>
+                    <div id="danger" class="card-header card-title1">Personas totales contagiadas</div>
                     <div class="card-body">
                         <h5 id="TotalConfirmed" class="count"></h5>
-                        <p class="card-text">Todas las personas acomuladas confirmadas, portadoras de Covid-19.</p>
+                        <p class="card-text">Todas las personas acumuladas confirmadas, portadoras de Covid-19.</p>
                     </div>
                 </div>
                 <div class="card-data card2  mb-3" style="max-width: 18rem;">
-                    <div class="card-header">Defunciones Totales</div>
+                    <div id="dark" class="card-header">Defunciones Totales</div>
                     <div class="card-body">
                         <h5 id="TotalDeaths" class="count"></h5>
                         <p class="card-text">Defunciones totales</p>
                     </div>
                 </div>
                 <div class="card-data card3  mb-3" style="max-width: 18rem">
-                    <div class="card-header card-title3">Personas totales recuperadas </div>
+                    <div id="sucess" class="card-header card-title3">Personas totales recuperadas </div>
                     <div class="card-body">
                         <h5 id="TotalRecovered" class="count"></h5>
                         <p class="card-text">*(Datos estimados) Personas recuperadas</p>
@@ -158,7 +160,7 @@
     <section class="footer">
 
         <h5>Creado por
-            <a href="https://erickrv19.github.io/">Erick R</h5></a>
+            <a href="https://erickrv19.github.io/">Erick RV</h5></a>
             <div class="social">
                 <a href="https://twitter.com/ErickRV19"><img src="/src/img/twitter.png" width="48px" alt=""></a>
                 <a href="https://github.com/ErickRV19"><img src="/src/img/github.png" alt="" width="50px"></a>

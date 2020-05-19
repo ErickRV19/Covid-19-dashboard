@@ -1,0 +1,79 @@
+[class~=container] {
+    padding-top: 1.5em;
+}
+
+[class~=instrucciones] {
+    font-size: small;
+}
+
+[class~=instrucciones] {
+    margin-left: 0em;
+}
+
+[class~=instrucciones] {
+    margin-bottom: 2em;
+}
+
+[class~=instrucciones] {
+    margin-right: 0em;
+}
+
+[class~=instrucciones] {
+    margin-top: 2em;
+}
+
+[class~=terminos] {
+    font-size: x-small;
+}
+
+[class~=footer] {
+    border-top-left-radius: 50% 18%;
+}
+
+[class~=footer] {
+    border-top-right-radius: 50% 18%;
+}
+
+[class~=footer] {
+    display: flex;
+}
+
+[class~=footer] {
+    color: white;
+}
+
+[class~=footer] {
+    flex-direction: column;
+}
+
+[class~=footer] {
+    align-items: center;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+[class~=footer] {
+    padding-left: 2em;
+}
+
+[class~=footer] {
+    padding-bottom: 2em;
+}
+
+[class~=footer] {
+    padding-right: 2em;
+}
+
+[class~=footer] {
+    padding-top: 2em;
+}
+
+[class~=footer] {
+    background-color: #003d7a;
+}
+
+[class~=social] {
+    display: inline;
+}
