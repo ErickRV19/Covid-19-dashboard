@@ -1,5 +1,58 @@
+[class~=navbar] {
+    font-size: 1.3em;
+}
+
+[class~=navbar-brand] {
+    font-size: 1em;
+}
+
+[class~=curved] {
+    position: relative;
+}
+
+[class~=curved] {
+    background: #003d7a;
+}
+
+[class~=curved] {
+    height: 30vh;
+}
+
+[class~=curved] {
+    border-bottom-right-radius: 100% 90%;
+}
+
+[class~=hero] {
+    text-transform: initial;
+}
+
+[class~=hero] {
+    display: block;
+}
+
+[class~=hero] {
+    padding-left: 1em;
+}
+
+[class~=hero] {
+    padding-bottom: 1em;
+}
+
+[class~=hero] {
+    padding-right: 1em;
+}
+
+[class~=hero] {
+    padding-top: 1em;
+}
+
+[class~=hero],
+[class~=footer] {
+    color: white;
+}
+
 [class~=container] {
-    padding-top: 1.5em;
+    padding-top: 0em;
 }
 
 [class~=instrucciones] {
@@ -22,7 +75,7 @@
     margin-top: 2em;
 }
 
-[class~=terminos] {
+.terminos {
     font-size: x-small;
 }
 
@@ -39,19 +92,11 @@
 }
 
 [class~=footer] {
-    color: white;
-}
-
-[class~=footer] {
     flex-direction: column;
 }
 
 [class~=footer] {
     align-items: center;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
 }
 
 [class~=footer] {
@@ -74,6 +119,10 @@ body {
     background-color: #003d7a;
 }
 
-[class~=social] {
+.social {
     display: inline;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
 }
