@@ -2,88 +2,107 @@
     font-size: 1.3em;
 }
 
-[class~=navbar-brand] {
+.navbar-brand {
     font-size: 1em;
-}
-
-.curved {
-    position: relative;
-}
-
-.curved {
-    background: #003d7a;
 }
 
 #title {
     margin-top: 1em;
 }
 
-.curved {
-    height: 30vh;
+[class~=curved] {
+    position: relative;
 }
 
-#curve_chart_meses,
+[class~=curved] {
+    background: #003d7a;
+}
+
 #curve_chart_mayo {
-    width: 100%;
-}
-
-.curved {
-    border-bottom-right-radius: 100% 90%;
+    width: 110%;
 }
 
 #curve_chart_mayo {
     height: 90%;
 }
 
+[class~=curved] {
+    height: 30vh;
+}
+
+[class~=curved] {
+    border-bottom-right-radius: 100% 90%;
+}
+
 #curve_chart_mayo {
     padding-left: 0em;
 }
 
-[class~=hero] {
+#curve_chart_mayo {
+    padding-bottom: 3em;
+}
+
+#curve_chart_mayo {
+    padding-right: 0em;
+}
+
+.hero {
     text-transform: initial;
 }
 
-[class~=hero] {
+.hero {
     display: block;
 }
 
-[class~=hero] {
+.hero {
     padding-left: 1em;
 }
 
-[class~=hero] {
+.hero {
     padding-bottom: 1em;
 }
 
-[class~=hero] {
+.hero {
     padding-right: 1em;
 }
 
-[class~=hero] {
+.hero {
     padding-top: 1em;
 }
 
-[class~=hero],
-[class~=footer] {
+#curve_chart_mayo {
+    padding-top: 3em;
+}
+
+.hero,
+.footer {
     color: white;
 }
 
-.container {
+[class~=container] {
     padding-top: 0em;
 }
 
+#curve_chart_meses {
+    width: 100%;
+}
+
 [class~=graph],
-[class~=footer] {
+.footer {
     display: flex;
 }
 
 [class~=graph],
-[class~=footer] {
+.footer {
     flex-direction: column;
 }
 
-[class~=footer],
-[class~=graph] {
+#curve_chart_meses {
+    height: 60%;
+}
+
+[class~=graph],
+.footer {
     align-items: center;
 }
 
@@ -91,27 +110,27 @@
     padding-left: 1em;
 }
 
-[class~=instrucciones] {
+.instrucciones {
     font-size: small;
 }
 
-[class~=instrucciones] {
+.instrucciones {
     margin-left: 0em;
 }
 
-[class~=instrucciones] {
-    margin-bottom: 2em;
-}
-
-#curve_chart_mayo {
+#curve_chart_meses {
     padding-bottom: 3em;
 }
 
-[class~=instrucciones] {
+.instrucciones {
+    margin-bottom: 2em;
+}
+
+.instrucciones {
     margin-right: 0em;
 }
 
-[class~=instrucciones] {
+.instrucciones {
     margin-top: 2em;
 }
 
@@ -119,54 +138,38 @@
     font-size: x-small;
 }
 
-#curve_chart_mayo {
-    padding-right: 0em;
-}
-
-[class~=footer] {
+.footer {
     border-top-left-radius: 50% 18%;
 }
 
-#curve_chart_mayo {
-    padding-top: 3em;
-}
-
-[class~=footer] {
+.footer {
     border-top-right-radius: 50% 18%;
 }
 
-#curve_chart_meses {
-    height: 60%;
+body {
+    font-family: "Roboto", sans-serif;
 }
 
-[class~=footer] {
+.footer {
     padding-left: 2em;
 }
 
-[class~=footer] {
+.footer {
     padding-bottom: 2em;
 }
 
-[class~=footer] {
+.footer {
     padding-right: 2em;
 }
 
-[class~=footer] {
+.footer {
     padding-top: 2em;
 }
 
-#curve_chart_meses {
-    padding-bottom: 3em;
-}
-
-[class~=footer] {
+.footer {
     background-color: #000;
 }
 
 [class~=social] {
     display: inline;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
 }
