@@ -1,0 +1,128 @@
+[class~=navbar] {
+    font-size: 1.3em;
+}
+
+[class~=navbar-brand] {
+    font-size: 1em;
+}
+
+[class~=curved] {
+    position: relative;
+}
+
+[class~=curved] {
+    background: #003d7a;
+}
+
+[class~=curved] {
+    height: 30vh;
+}
+
+[class~=curved] {
+    border-bottom-right-radius: 100% 90%;
+}
+
+[class~=hero] {
+    text-transform: initial;
+}
+
+[class~=hero] {
+    display: block;
+}
+
+[class~=hero] {
+    padding-left: 1em;
+}
+
+[class~=hero] {
+    padding-bottom: 1em;
+}
+
+[class~=hero] {
+    padding-right: 1em;
+}
+
+[class~=hero] {
+    padding-top: 1em;
+}
+
+[class~=hero],
+[class~=footer] {
+    color: white;
+}
+
+.container {
+    padding-top: 0em;
+}
+
+[class~=instrucciones] {
+    font-size: small;
+}
+
+[class~=instrucciones] {
+    margin-left: 0em;
+}
+
+[class~=instrucciones] {
+    margin-bottom: 2em;
+}
+
+[class~=instrucciones] {
+    margin-right: 0em;
+}
+
+[class~=instrucciones] {
+    margin-top: 2em;
+}
+
+[class~=terminos] {
+    font-size: x-small;
+}
+
+[class~=footer] {
+    border-top-left-radius: 50% 18%;
+}
+
+[class~=footer] {
+    border-top-right-radius: 50% 18%;
+}
+
+[class~=footer] {
+    display: flex;
+}
+
+[class~=footer] {
+    flex-direction: column;
+}
+
+[class~=footer] {
+    align-items: center;
+}
+
+[class~=footer] {
+    padding-left: 2em;
+}
+
+[class~=footer] {
+    padding-bottom: 2em;
+}
+
+[class~=footer] {
+    padding-right: 2em;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+[class~=footer] {
+    padding-top: 2em;
+}
+
+[class~=footer] {
+    background-color: #271f6f;
+}
+
+[class~=social] {
+    display: inline;
+}
