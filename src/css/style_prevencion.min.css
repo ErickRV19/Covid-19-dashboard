@@ -30,13 +30,93 @@
     padding-top: 1em;
 }
 
-[class~=footer],
 .hero {
     color: white;
 }
 
+[class~=container],
+[class~=footer] {
+    display: flex;
+}
+
+[class~=container],
+[class~=footer] {
+    flex-direction: column;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+[class~=container],
+[class~=footer] {
+    align-items: center;
+}
+
 [class~=container] {
     padding-top: 0em;
+}
+
+#imgOms {
+    margin-bottom: 2em;
+}
+
+[class~=container] {
+    color: slategray;
+}
+
+[class~=container] {
+    text-align: center;
+}
+
+[class~=imgCircle],
+[class~=infoImg],
+[class~=info],
+[class~=oms] {
+    padding-left: 0em;
+}
+
+[class~=imgCircle],
+[class~=info],
+[class~=infoImg] {
+    padding-bottom: 2em;
+}
+
+[class~=infoImg],
+[class~=info],
+[class~=oms],
+[class~=imgCircle] {
+    padding-right: 0em;
+}
+
+[class~=infoImg],
+[class~=info],
+[class~=imgCircle] {
+    padding-top: 2em;
+}
+
+[class~=infoImg] {
+    width: 30vw;
+}
+
+[class~=infoImg] {
+    height: 27vh;
+}
+
+[class~=imgCircle] {
+    width: 50vw;
+}
+
+[class~=imgCircle] {
+    height: 35vh;
+}
+
+[class~=oms] {
+    padding-bottom: 4em;
+}
+
+[class~=oms] {
+    padding-top: 4em;
 }
 
 [class~=instrucciones] {
@@ -59,7 +139,7 @@
     margin-top: 2em;
 }
 
-[class~=terminos] {
+.terminos {
     font-size: x-small;
 }
 
@@ -72,19 +152,7 @@
 }
 
 [class~=footer] {
-    display: flex;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-}
-
-[class~=footer] {
-    flex-direction: column;
-}
-
-[class~=footer] {
-    align-items: center;
+    color: white !important;
 }
 
 [class~=footer] {
@@ -109,4 +177,12 @@ body {
 
 [class~=social] {
     display: inline;
+}
+
+#imgOms {
+    width: 70vw;
+}
+
+#imgOms {
+    height: 10vh;
 }
