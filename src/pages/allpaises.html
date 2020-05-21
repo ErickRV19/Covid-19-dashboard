@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/img/iconpage.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/src/css/style_allpaises.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Covid-19 Dashboard</title>
+</head>
+
+<body>
+    <nav class="total-navbar navbar navbar-expand-md navbar-dark" style="background-color: #00a357;">
+        <a class="navabar-title navbar-brand" href="/index.html">Covid-19</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/pages/capaHospitalaria.html">Capacidad hospitalaria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/pages/estadisticas.html">Estadísticas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/pages/prevencion.html">Prevención</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/src/pages/acercade.html">Acerca de</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="curved">
+        <section class="hero">
+            <h1>Datos de otros paises</h1>
+            <p id="advertencia">*La pagina esta en fase de desarrollo si no aparecen los datos vuelve a recargar</p>
+        </section>
+    </section>
+
+
+    <div class="container">
+        <div class="table">
+            <thead>
+                <table class="table table-striped">
+                    <tbody>
+                        <table id="tablaPaises">
+                            <tr class="bg-success text-white">
+                                <th>Paises</th>
+                                <th class="bg-danger">Positivos</th>
+                                <th class="bg-dark">Muertes</th>
+                                <th class="bg-primary">Recuperados</th>
+                            </tr>
+                    </tbody>
+                    </table>
+        </div>
+        </thead>
+        </table>
+    </div>
+    <div class="float">
+
+        <img class="irArriba" src="/src/img/irArriba.png" alt="ir arriba" onclick="location.href='#'" ">
+    </div>
+    </div>
+    <script async src="/src/js/appAllPaises.min.js "></script>
+
+</body>
+
+</html>
