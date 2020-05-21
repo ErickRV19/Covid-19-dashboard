@@ -55,9 +55,11 @@
     </section>
     <div class="container">
         <section class="data-global">
-            <h1>Datos globales</h1>
-            <img src="/src/img/world.png" height="150px" width="150px" class="icon-data" alt="">
-            <p class="title-data">Datos acumulados</p>
+            <div class="title-data-global">
+                <h1>Datos globales</h1>
+                <img src="/src/img/world.png" height="150px" width="150px" class="icon-data" alt="">
+                <p class="title-data">Datos acumulados</p>
+            </div>
             <div class="data">
 
                 <div class="card-data card1 mb-3" style="max-width: 18rem; ">
@@ -99,14 +101,17 @@
 
     <div class="container">
         <section class="data-mexico">
-            <h2>Datos de México</h2>
-            <div class="date">Ultima Actualización
-                <div id="Day"></div>
+            <div class="title-data-global">
+
+                <h2>Datos de México</h2>
+                <div class="date">Ultima Actualización
+                    <div id="Day"></div>
+                </div>
+                <img src="/src/img/mexico.png" height="150px" width="150px" class="icon-data" alt="">
+                <p class="title-data" style="color: rgb(0, 0, 0);">Datos nuevos (solo datos nuevos)</p>
             </div>
-            <img src="/src/img/mexico.png" height="150px" width="150px" class="icon-data" alt=""> S
             <div class="data-today">
 
-                <p class="title-data" style="color: rgb(0, 0, 0);">Datos nuevos (solo datos nuevos)</p>
                 <div class="card-data tarjeta text-white mb-3" style="max-width: 18rem; background-color: rgb(255, 64, 64);">
                     <div class="card-header ">Personas nuevas confirmadas </div>
                     <div class="card-body">
@@ -124,29 +129,33 @@
             </div>
 
             <div class="data-total">
-                <img src="/src/img/covid.png" width="100px" alt="">
-                <p class="title-data" style="color: rgb(0, 0, 0);">Datos totales (Datos acumulados)</p>
+                <div class="title-data-global">
+                    <img src="/src/img/covid.png" width="100px" alt="">
+                    <p class="title-data" style="color: rgb(0, 0, 0);">Datos totales (Datos acumulados)</p>
+                </div>
 
                 <!-- datos acomulados (totales)- -->
-                <div class="card-data card1   mb-3" style="max-width: 18rem; ">
-                    <div id="danger" class="card-header card-title1">Personas totales contagiadas</div>
-                    <div class="card-body">
-                        <h5 id="TotalConfirmed" class="count"></h5>
-                        <p class="card-text">Todas las personas acumuladas confirmadas, portadoras de Covid-19.</p>
+                <div class="card-global">
+                    <div class="card-data card1   mb-3" style="max-width: 18rem; ">
+                        <div id="danger" class="card-header card-title1">Personas totales contagiadas</div>
+                        <div class="card-body">
+                            <h5 id="TotalConfirmed" class="count"></h5>
+                            <p class="card-text">Todas las personas acumuladas confirmadas, portadoras de Covid-19.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card-data card2  mb-3" style="max-width: 18rem;">
-                    <div id="dark" class="card-header">Defunciones Totales</div>
-                    <div class="card-body">
-                        <h5 id="TotalDeaths" class="count"></h5>
-                        <p class="card-text">Defunciones totales</p>
+                    <div class="card-data card2  mb-3" style="max-width: 18rem;">
+                        <div id="dark" class="card-header">Defunciones Totales</div>
+                        <div class="card-body">
+                            <h5 id="TotalDeaths" class="count"></h5>
+                            <p class="card-text">Defunciones totales</p>
+                        </div>
                     </div>
-                </div>
-                <div class="card-data card3  mb-3" style="max-width: 18rem">
-                    <div id="sucess" class="card-header card-title3">Personas totales recuperadas </div>
-                    <div class="card-body">
-                        <h5 id="TotalRecovered" class="count"></h5>
-                        <p class="card-text">*(Datos estimados) Personas recuperadas</p>
+                    <div class="card-data card3  mb-3" style="max-width: 18rem">
+                        <div id="sucess" class="card-header card-title3">Personas totales recuperadas </div>
+                        <div class="card-body">
+                            <h5 id="TotalRecovered" class="count"></h5>
+                            <p class="card-text">*(Datos estimados) Personas recuperadas</p>
+                        </div>
                     </div>
                 </div>
             </div>
