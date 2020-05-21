@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #007DFA;
+    --accent-color: #005DBA;
+    --secondary-color: #FF9B30;
+    --color-font-primary: #708090
+}
+
+:focus {
+    outline: 0
+}
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+.navbar {
+    font-size: 1.3em
+}
+
+.navbar-brand {
+    font-size: 1em
+}
+
+.curved {
+    position: relative;
+    background: #17A54F;
+    height: 35vh;
+    border-bottom-left-radius: 50% 18%;
+    border-bottom-right-radius: 50% 18%
+}
+
+.float {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center
+}
+
+.irArriba {
+    height: 10vh;
+    width: 12vw
+}
+
+.hero {
+    text-transform: initial;
+    display: block;
+    padding: 2em;
+    color: #fff
+}
+
+.table td .table th {
+    padding: .5px
+}
+
+#advertencia {
+    font-size: .5em
+}
+
+.footer {
+    border-top-left-radius: 50% 18%;
+    border-top-right-radius: 50% 18%;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    background-color: #003D7A
+}
+
+.social {
+    display: inline
+}
+
+@media screen and (min-width:1023px) {
+    .container {
+        width: 100vw
+    }
+    .hero {
+        font-size: 2em
+    }
+    .table {
+        width: 100vw
+    }
+    .irArriba {
+        height: 10vh;
+        width: 5vw
+    }
+}
