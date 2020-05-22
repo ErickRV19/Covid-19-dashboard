@@ -142,11 +142,11 @@ details {
 }
 
 .infoImg {
-    width: 30vw;
+    width: 27vw;
 }
 
 .infoImg {
-    height: 27vh;
+    height: 22vh;
 }
 
 details {
@@ -154,11 +154,11 @@ details {
 }
 
 [class~=imgCircle] {
-    width: 50vw;
+    width: 47vw;
 }
 
 [class~=imgCircle] {
-    height: 35vh;
+    height: 30vh;
 }
 
 [class~=oms] {
