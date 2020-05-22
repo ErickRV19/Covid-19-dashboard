@@ -12,6 +12,7 @@ Algunas herramientas que se utilizaron para este proyecto:
 [Bootstrap](https://getbootstrap.com/ "Bootstrap")
 [Iconos](https://iconos8.es/icons "Iconos")
 [Flaticon](https://www.flaticon.es/ "Flaticon")
+[Mockups](https://www.graphberry.com/ "Grapgberry")
 
 Y para las graficas 
 [Google Chart](https://developers.google.com/chart "Google Chart")
