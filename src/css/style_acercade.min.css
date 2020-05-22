@@ -199,6 +199,15 @@ summary::-webkit-details-marker {
     padding: .5em 2em;
 }
 
+.sugerencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
 @media screen and (min-width:768px) {}
 
 @media screen and (min-width:1023px) {
