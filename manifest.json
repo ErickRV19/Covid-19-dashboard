@@ -1,0 +1,13 @@
+{
+    "background_color": "#fff",
+    "description": "Consulta los datos y estadisticas.",
+    "display": "standalone",
+    "icons": [{
+        "src": "/src/img/iconpage.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "name": "Covid-19 Dashboard",
+    "short_name": "Covid-19",
+    "start_url": "/index.html"
+}
