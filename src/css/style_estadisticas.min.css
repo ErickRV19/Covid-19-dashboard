@@ -1,13 +1,17 @@
-#title {
-    margin-top: 1em;
-}
-
 :focus {
     outline: 0;
 }
 
 [class~=navbar] {
     font-size: 1.3em;
+}
+
+#title {
+    margin-top: 1em;
+}
+
+#curve_chart_mayo {
+    width: 110%;
 }
 
 [class~=navbar-brand] {
@@ -26,16 +30,50 @@
     height: 30vh;
 }
 
+#curve_chart_mayo {
+    height: 80vh;
+}
+
+#curve_chart_mayo {
+    padding-left: 0em;
+}
+
 [class~=curved] {
     border-bottom-right-radius: 100% 90%;
+}
+
+#curve_chart_mayo {
+    padding-bottom: 3em;
+}
+
+#curve_chart_mayo {
+    padding-right: 0em;
+}
+
+#curve_chart_mayo {
+    padding-top: 3em;
 }
 
 [class~=hero] {
     text-transform: initial;
 }
 
+#curve_chart_junio,
+#curve_chart_meses {
+    width: 100%;
+}
+
 [class~=hero] {
     display: block;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+#curve_chart_junio,
+#curve_chart_meses {
+    height: 70vh;
 }
 
 [class~=hero] {
@@ -50,12 +88,17 @@
     padding-right: 1em;
 }
 
+#curve_chart_meses,
+#curve_chart_junio {
+    padding-bottom: 3em;
+}
+
 [class~=hero] {
     padding-top: 1em;
 }
 
-[class~=hero],
-[class~=footer] {
+[class~=footer],
+[class~=hero] {
     color: white;
 }
 
@@ -82,35 +125,27 @@
     padding-left: 1em;
 }
 
-.instrucciones {
+[class~=instrucciones] {
     font-size: small;
 }
 
-.instrucciones {
+[class~=instrucciones] {
     margin-left: 0em;
 }
 
-.instrucciones {
+[class~=instrucciones] {
     margin-bottom: 2em;
 }
 
-#curve_chart_mayo {
-    width: 110%;
-}
-
-#curve_chart_mayo {
-    height: 80vh;
-}
-
-.instrucciones {
+[class~=instrucciones] {
     margin-right: 0em;
 }
 
-.instrucciones {
+[class~=instrucciones] {
     margin-top: 2em;
 }
 
-[class~=terminos] {
+.terminos {
     font-size: x-small;
 }
 
@@ -142,40 +177,8 @@
     background-color: #000;
 }
 
-#curve_chart_mayo {
-    padding-left: 0em;
-}
-
 [class~=social] {
     display: inline;
-}
-
-#curve_chart_mayo {
-    padding-bottom: 3em;
-}
-
-#curve_chart_mayo {
-    padding-right: 0em;
-}
-
-#curve_chart_mayo {
-    padding-top: 3em;
-}
-
-#curve_chart_meses {
-    width: 100%;
-}
-
-#curve_chart_meses {
-    height: 70vh;
-}
-
-#curve_chart_meses {
-    padding-bottom: 3em;
-}
-
-body {
-    font-family: "Roboto", sans-serif;
 }
 
 @media screen and (min-width:768px) {
@@ -185,12 +188,12 @@ body {
     #title {
         font-size: 4em;
     }
-    #curve_chart_mayo,
-    #curve_chart_meses {
+    #curve_chart_meses,
+    #curve_chart_mayo {
         width: 110vw;
     }
-    #curve_chart_mayo,
-    #curve_chart_meses {
+    #curve_chart_meses,
+    #curve_chart_mayo {
         height: 90vh;
     }
     #curve_chart_mayo {
@@ -214,8 +217,8 @@ body {
     #title {
         font-size: 4em;
     }
-    #curve_chart_mayo,
-    #curve_chart_meses {
+    #curve_chart_meses,
+    #curve_chart_mayo {
         width: 110%;
     }
     #curve_chart_mayo,

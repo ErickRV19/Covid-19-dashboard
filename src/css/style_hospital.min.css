@@ -10,77 +10,45 @@
     font-size: 1em;
 }
 
-[class~=curved] {
-    position: relative;
+.hero {
+    margin-top: 2em;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-}
-
-[class~=curved] {
-    background: #003d7a;
-}
-
-[class~=curved] {
-    height: 30vh;
-}
-
-[class~=curved] {
-    border-bottom-right-radius: 100% 90%;
-}
-
-[class~=hero] {
+.hero {
     text-transform: initial;
 }
 
-[class~=hero] {
+.hero {
     display: block;
 }
 
-[class~=hero] {
+.hero {
     padding-left: 1em;
 }
 
-[class~=hero] {
+.hero {
     padding-bottom: 1em;
 }
 
-[class~=hero] {
+.hero {
     padding-right: 1em;
 }
 
-[class~=hero] {
+.hero {
     padding-top: 1em;
 }
 
-[class~=hero],
-.footer {
-    color: white;
+.hero,
+[class~=instrucciones] {
+    color: #708090;
 }
 
 [class~=container] {
     padding-top: 0em;
 }
 
-.instrucciones {
+[class~=instrucciones] {
     font-size: small;
-}
-
-.instrucciones {
-    margin-left: 0em;
-}
-
-.instrucciones {
-    margin-bottom: 2em;
-}
-
-.instrucciones {
-    margin-right: 0em;
-}
-
-.instrucciones {
-    margin-top: 2em;
 }
 
 [class~=terminos] {
@@ -97,6 +65,10 @@ body {
 
 .footer {
     display: flex;
+}
+
+.footer {
+    color: white;
 }
 
 .footer {
@@ -127,6 +99,10 @@ body {
     background-color: #003d7a;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 [class~=social] {
     display: inline;
 }
@@ -135,50 +111,36 @@ body {
     [class~=curved] {
         position: relative;
     }
-    [class~=curved] {
-        background: #003d7a;
-    }
-    [class~=curved] {
-        height: 22vh;
-    }
-    [class~=curved] {
-        border-bottom-right-radius: 100% 90%;
-    }
-    [class~=instrucciones] {
-        font-size: 1.3em;
-    }
     [class~=hero] h2 {
         font-size: 2em;
     }
-    [class~=terminos] {
-        font-size: 1em;
-    }
-    .hero p {
-        font-size: 1.3em;
-    }
-}
-
-@media screen and (min-width:1023px) {
-    [class~=curved] {
-        position: relative;
-    }
     [class~=curved] {
         background: #003d7a;
-    }
-    [class~=curved] {
-        height: 22vh;
-    }
-    .hero h2 {
-        font-size: 2em;
     }
     [class~=hero] p,
     .instrucciones {
         font-size: 1.3em;
     }
     [class~=curved] {
+        height: 22vh;
+    }
+    [class~=curved] {
         border-bottom-right-radius: 100% 90%;
     }
-    .terminos {
+    [class~=terminos] {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width:1023px) {
+    [class~=hero] h2 {
+        font-size: 2em;
+    }
+    [class~=instrucciones],
+    .hero p {
+        font-size: 1.3em;
+    }
+    [class~=terminos] {
         font-size: 1em;
     }
 }
