@@ -5,7 +5,8 @@
     "icons": [{
         "src": "/src/img/iconpage.png",
         "sizes": "192x192",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
     }],
     "name": "Covid-19 Dashboard",
     "short_name": "Covid-19",
