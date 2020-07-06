@@ -1,6 +1,7 @@
 # Covid-19
 
 Pagina creada con el objetivo de informar sobre los datos de la pandemia en México y el mundo, el cual busca informar sobre algunas recomendaciones y ver estadisticas diarias.
+Puedes verla aqui -> https://covid19-erv.netlify.app/
 
 ![Previews 1](https://raw.githubusercontent.com/ErickRV19/Covid-19-dashboard/master/src/img/PreviewDos.png "Previews 1")
 
